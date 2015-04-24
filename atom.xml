@@ -4,7 +4,7 @@
   <title><![CDATA[Elastica]]></title>
   <link href="http://Elastica.io/atom.xml" rel="self"/>
   <link href="http://Elastica.io/"/>
-  <updated>2015-02-17T21:00:29+01:00</updated>
+  <updated>2015-04-23T21:11:52-07:00</updated>
   <id>http://Elastica.io/</id>
   <author>
     <name><![CDATA[@ruflin]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Release v1.4.3.0]]></title>
     <link href="http://Elastica.io/2015/02/17/release-v1-dot-4-3-dot-0/"/>
-    <updated>2015-02-17T19:47:20+01:00</updated>
+    <updated>2015-02-17T10:47:20-08:00</updated>
     <id>http://Elastica.io/2015/02/17/release-v1-dot-4-3-dot-0</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/ruflin/Elastica/tree/v1.4.3.0">Elastica v1.4.3.0</a> (<a href="https://github.com/ruflin/Elastica/releases/tag/v1.4.3.0">download</a>). This release is compatible with elasticsearch 1.4.3.</p>
 
@@ -82,7 +82,7 @@
   <entry>
     <title type="html"><![CDATA[Release v1.4.2.0]]></title>
     <link href="http://Elastica.io/2015/01/25/release-v1-dot-4-2-dot-0/"/>
-    <updated>2015-01-25T14:11:25+01:00</updated>
+    <updated>2015-01-25T05:11:25-08:00</updated>
     <id>http://Elastica.io/2015/01/25/release-v1-dot-4-2-dot-0</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/ruflin/Elastica/tree/v1.4.2.0">Elastica v1.4.2.0</a> (<a href="https://github.com/ruflin/Elastica/releases/tag/v1.4.2.0">download</a>). This release is compatible with elasticsearch 1.4.2.</p>
 
@@ -171,7 +171,7 @@
   <entry>
     <title type="html"><![CDATA[Release v1.3.4.0]]></title>
     <link href="http://Elastica.io/2014/10/04/release-v1-dot-3-4-dot-0/"/>
-    <updated>2014-10-04T22:18:24+02:00</updated>
+    <updated>2014-10-04T13:18:24-07:00</updated>
     <id>http://Elastica.io/2014/10/04/release-v1-dot-3-4-dot-0</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/ruflin/Elastica/tree/v1.3.4.0">Elastica v1.3.4.0</a> (<a href="https://github.com/ruflin/Elastica/releases/tag/v1.3.4.0">download</a>). This release is compatible with elasticsearch 1.3.0.</p>
 
@@ -235,7 +235,7 @@
   <entry>
     <title type="html"><![CDATA[Release v1.3.0.0]]></title>
     <link href="http://Elastica.io/2014/07/27/release-v1-dot-3-0-dot-0/"/>
-    <updated>2014-07-27T15:39:20+02:00</updated>
+    <updated>2014-07-27T06:39:20-07:00</updated>
     <id>http://Elastica.io/2014/07/27/release-v1-dot-3-0-dot-0</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/ruflin/Elastica/tree/v1.3.0.0">Elastica v1.3.0.0</a> (<a href="https://github.com/ruflin/Elastica/releases/tag/v1.3.0.0">download</a>). This release is compatible with elasticsearch 1.3.0.</p>
 
@@ -296,7 +296,7 @@
   <entry>
     <title type="html"><![CDATA[Release v1.2.1.0]]></title>
     <link href="http://Elastica.io/2014/06/14/release-v1-dot-2-1-dot-0/"/>
-    <updated>2014-06-14T10:47:11+02:00</updated>
+    <updated>2014-06-14T01:47:11-07:00</updated>
     <id>http://Elastica.io/2014/06/14/release-v1-dot-2-1-dot-0</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/ruflin/Elastica/tree/v1.2.1.0">Elastica v1.2.1.0</a> (<a href="https://github.com/ruflin/Elastica/releases/tag/v1.2.1.0">download</a>). This release is compatible with elasticsearch 1.2.1.</p>
 
@@ -372,7 +372,7 @@
   <entry>
     <title type="html"><![CDATA[Release v1.1.1.1]]></title>
     <link href="http://Elastica.io/2014/04/27/release-v1-dot-1-1-dot-1/"/>
-    <updated>2014-04-27T19:35:03+02:00</updated>
+    <updated>2014-04-27T10:35:03-07:00</updated>
     <id>http://Elastica.io/2014/04/27/release-v1-dot-1-1-dot-1</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/ruflin/Elastica/tree/v1.1.1.1">Elastica v1.1.1.1</a> (<a href="https://github.com/ruflin/Elastica/releases/tag/v1.1.1.1">download</a>). This release is compatible with elasticsearch 1.1.1.</p>
 
@@ -435,7 +435,7 @@
   <entry>
     <title type="html"><![CDATA[Release v1.1.1.0]]></title>
     <link href="http://Elastica.io/2014/04/19/release-v1-dot-1-1-dot-0/"/>
-    <updated>2014-04-19T17:13:36+02:00</updated>
+    <updated>2014-04-19T08:13:36-07:00</updated>
     <id>http://Elastica.io/2014/04/19/release-v1-dot-1-1-dot-0</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/ruflin/Elastica/tree/v1.1.1.0">Elastica v1.1.1.0</a> (<a href="https://github.com/ruflin/Elastica/releases/tag/v1.1.1.0">download</a>). This release is compatible with elasticsearch 1.1.1.</p>
 
@@ -499,7 +499,7 @@
   <entry>
     <title type="html"><![CDATA[Release v1.0.1.2]]></title>
     <link href="http://Elastica.io/2014/03/25/release-v1-dot-0-1-dot-2/"/>
-    <updated>2014-03-25T20:37:06+01:00</updated>
+    <updated>2014-03-25T12:37:06-07:00</updated>
     <id>http://Elastica.io/2014/03/25/release-v1-dot-0-1-dot-2</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/ruflin/Elastica/tree/v1.0.1.2">Elastica v1.0.1.2</a> (<a href="https://github.com/ruflin/Elastica/releases/tag/v1.0.1.2">download</a>). This release is compatible with elasticsearch 1.0.1.</p>
 
@@ -563,7 +563,7 @@
   <entry>
     <title type="html"><![CDATA[Release v1.0.1.1]]></title>
     <link href="http://Elastica.io/2014/03/08/release-v1-dot-0-1-dot-1/"/>
-    <updated>2014-03-08T13:06:47+01:00</updated>
+    <updated>2014-03-08T04:06:47-08:00</updated>
     <id>http://Elastica.io/2014/03/08/release-v1-dot-0-1-dot-1</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/ruflin/Elastica/tree/v1.0.1.1">Elastica v1.0.1.1</a> (<a href="https://github.com/ruflin/Elastica/releases/tag/v1.0.1.1">download</a>). This release is compatible with elasticsearch 1.0.1.</p>
 
@@ -629,7 +629,7 @@
   <entry>
     <title type="html"><![CDATA[Release v1.0.1.0]]></title>
     <link href="http://Elastica.io/2014/03/02/release-v1-dot-0-1-dot-0/"/>
-    <updated>2014-03-02T12:12:34+01:00</updated>
+    <updated>2014-03-02T03:12:34-08:00</updated>
     <id>http://Elastica.io/2014/03/02/release-v1-dot-0-1-dot-0</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/ruflin/Elastica/tree/v1.0.1.0">Elastica v1.0.1.0</a> (<a href="https://github.com/ruflin/Elastica/releases/tag/v1.0.1.0">download</a>). This release is compatible with elasticsearch 1.0.1.</p>
 
@@ -694,7 +694,7 @@
   <entry>
     <title type="html"><![CDATA[Release v1.0.0.0]]></title>
     <link href="http://Elastica.io/2014/02/12/release-v1-dot-0-0-dot-0/"/>
-    <updated>2014-02-12T20:13:31+01:00</updated>
+    <updated>2014-02-12T11:13:31-08:00</updated>
     <id>http://Elastica.io/2014/02/12/release-v1-dot-0-0-dot-0</id>
     <content type="html"><![CDATA[<p>Elastica v1.0.0.0 <a href="https://github.com/ruflin/Elastica/tree/v1.0.0.0">download</a>. This release is compatible with elasticsearch 1.0.0. There is a larger list of breaking changes in this release on the elasticsearch site. This will mean you have to adapt some code in your app but perhaps also on the configuration of elasticsearch. All changes can be found here: <a href="http://www.elasticsearch.org/guide/en/elasticsearch/reference/1.x/breaking-changes.html">http://www.elasticsearch.org/guide/en/elasticsearch/reference/1.x/breaking-changes.html</a></p>
 
@@ -758,7 +758,7 @@
   <entry>
     <title type="html"><![CDATA[Release v0.90.10.0]]></title>
     <link href="http://Elastica.io/2014/02/02/release-v0-dot-90-dot-10-dot-0/"/>
-    <updated>2014-02-02T09:50:00+01:00</updated>
+    <updated>2014-02-02T09:50:00-08:00</updated>
     <id>http://Elastica.io/2014/02/02/release-v0-dot-90-dot-10-dot-0</id>
     <content type="html"><![CDATA[<p>Elastica v0.90.10.0 <a href="https://github.com/ruflin/Elastica/tree/v0.90.10.0">download</a>. This release is compatible with elasticsearch 0.90.10</p>
 
@@ -852,7 +852,7 @@
   <entry>
     <title type="html"><![CDATA[Release v0.90.7.0]]></title>
     <link href="http://Elastica.io/2013/11/23/release-v0-dot-90-dot-7-0/"/>
-    <updated>2013-11-23T22:37:00+01:00</updated>
+    <updated>2013-11-23T22:37:00-08:00</updated>
     <id>http://Elastica.io/2013/11/23/release-v0-dot-90-dot-7-0</id>
     <content type="html"><![CDATA[<p>Elastica v0.90.7.0 <a href="https://github.com/ruflin/Elastica/tree/v0.90.7.0">download</a>. This release is compatible with elasticsearch 0.90.7</p>
 
@@ -914,7 +914,7 @@
   <entry>
     <title type="html"><![CDATA[Release v0.90.5.0]]></title>
     <link href="http://Elastica.io/2013/10/27/release-v0-dot-90-dot-5-0/"/>
-    <updated>2013-10-27T13:56:00+01:00</updated>
+    <updated>2013-10-27T13:56:00-07:00</updated>
     <id>http://Elastica.io/2013/10/27/release-v0-dot-90-dot-5-0</id>
     <content type="html"><![CDATA[<p>Elastica v0.90.5.0 <a href="https://github.com/ruflin/Elastica/tree/v0.90.5.0">download</a>. This release is compatible with elasticsearch 0.90.5</p>
 
@@ -944,7 +944,7 @@
   <entry>
     <title type="html"><![CDATA[Release v0.90.2.0]]></title>
     <link href="http://Elastica.io/2013/08/25/release-v0-dot-90-dot-2-0/"/>
-    <updated>2013-08-25T10:47:00+02:00</updated>
+    <updated>2013-08-25T10:47:00-07:00</updated>
     <id>http://Elastica.io/2013/08/25/release-v0-dot-90-dot-2-0</id>
     <content type="html"><![CDATA[<p>This release is compatible with <a href="http://www.elasticsearch.org/downloads/0-90-2/">elasticsearch 0.90.2</a>. The only BC break in this release is that now Scripts is a frist class citizens in upsert. The migration guide can be found <a href="http://Elastica.io/migration/0.90.2/upsert.html">here</a>.</p>
 
@@ -979,7 +979,7 @@ See <a href="http://elastica.io/migration/0.90.2/upsert.html">http://elastica.io
   <entry>
     <title type="html"><![CDATA[Release v0.90.1.0]]></title>
     <link href="http://Elastica.io/2013/06/07/release-v0-dot-90-dot-1-0/"/>
-    <updated>2013-06-07T21:14:00+02:00</updated>
+    <updated>2013-06-07T21:14:00-07:00</updated>
     <id>http://Elastica.io/2013/06/07/release-v0-dot-90-dot-1-0</id>
     <content type="html"><![CDATA[<ul>
 <li><a href="https://github.com/ruflin/Elastica/tree/v0.90.1.0">Download</a></li>
@@ -1037,7 +1037,7 @@ if use Elastica\Log outside we need use as(<a href="https://github.com/php-fig/l
   <entry>
     <title type="html"><![CDATA[Release v0.20.5.0]]></title>
     <link href="http://Elastica.io/2013/02/20/release-v0-dot-20-dot-5-0/"/>
-    <updated>2013-02-20T21:15:00+01:00</updated>
+    <updated>2013-02-20T21:15:00-08:00</updated>
     <id>http://Elastica.io/2013/02/20/release-v0-dot-20-dot-5-0</id>
     <content type="html"><![CDATA[<ul>
 <li><a href="https://github.com/ruflin/Elastica/tree/v0.20.5.0">Download</a></li>
@@ -1171,7 +1171,7 @@ if use Elastica\Log outside we need use as(<a href="https://github.com/php-fig/l
   <entry>
     <title type="html"><![CDATA[Release v0.19.8.0]]></title>
     <link href="http://Elastica.io/2012/08/12/release-v0-dot-19-dot-8-0/"/>
-    <updated>2012-08-12T21:15:00+02:00</updated>
+    <updated>2012-08-12T21:15:00-07:00</updated>
     <id>http://Elastica.io/2012/08/12/release-v0-dot-19-dot-8-0</id>
     <content type="html"><![CDATA[<h1>Release <a href="https://github.com/ruflin/Elastica/tree/v0.19.8.0">v0.19.8.0</a></h1>
 
