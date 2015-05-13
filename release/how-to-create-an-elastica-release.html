@@ -96,7 +96,7 @@
   
 
 
-<time datetime="2014-03-08T13:07:00-08:00" pubdate data-updated="true">Mar 8<span>th</span>, 2014</time></p>
+<time datetime="2014-03-08T13:07:00+01:00" pubdate data-updated="true">Mar 8<span>th</span>, 2014</time></p>
   </header>
   
   <p>The following steps have to be followed to create a new Elastica Release</p>
@@ -107,13 +107,13 @@
 <li>Verify that all the builds on <a href="https://travis-ci.org/ruflin/Elastica">Travis</a> are green for the current version</li>
 <li>Merge pull request</li>
 <li>Go to <a href="https://github.com/ruflin/Elastica/releases">Github Release page</a> and &ldquo;Draft a new release&rdquo;</li>
-<li>Set the proper tag and title (Release vX.X.X.X) for the release based on the elasticsearch version and the minor version. The first 3 numbers are the elasticsearch release, the last on is the minor release between elasticsearch releases.</li>
+<li>Set the proper tag and title (Release X.X.X) for the release</li>
 <li>Copy all the changes since the last release from <a href="https://github.com/ruflin/Elastica/blob/master/changes.txt">changes.txt</a> and format them properly (remove dates)</li>
 <li>Publish the release</li>
 <li>Update <a href="http://elastica.io">Elastica.io</a>
 
 <ul>
-<li>Create a release post on Elastica.io with the changes and download link (<code>rake new_post['Release vX.X.X.X']</code>)</li>
+<li>Create a release post on Elastica.io with the changes and download link (<code>rake new_post['Release X.X.X']</code>)</li>
 <li>Update the Releases page with the newest release: <a href="http://elastica.io/releases/">http://elastica.io/releases/</a></li>
 <li>Build the newest API doc with <code>ant phpdoc</code> and copy it to the source/api folder</li>
 </ul>
@@ -139,7 +139,7 @@
   
 
 
-<time datetime="2014-03-08T13:07:00-08:00" pubdate data-updated="true">Mar 8<span>th</span>, 2014</time>
+<time datetime="2014-03-08T13:07:00+01:00" pubdate data-updated="true">Mar 8<span>th</span>, 2014</time>
         
       </p>
       
@@ -165,6 +165,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2015/05/13/release-2-dot-0-0/">Release 2.0.0</a>
+      </li>
+    
+      <li class="post">
         <a href="/2015/02/17/release-v1-dot-4-3-dot-0/">Release v1.4.3.0</a>
       </li>
     
@@ -178,10 +182,6 @@
     
       <li class="post">
         <a href="/2014/07/27/release-v1-dot-3-0-dot-0/">Release v1.3.0.0</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2014/06/14/release-v1-dot-2-1-dot-0/">Release v1.2.1.0</a>
       </li>
     
   </ul>
