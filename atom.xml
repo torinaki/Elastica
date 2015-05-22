@@ -4,7 +4,7 @@
   <title><![CDATA[Elastica]]></title>
   <link href="http://Elastica.io/atom.xml" rel="self"/>
   <link href="http://Elastica.io/"/>
-  <updated>2015-05-13T10:07:40+02:00</updated>
+  <updated>2015-05-22T15:20:25+02:00</updated>
   <id>http://Elastica.io/</id>
   <author>
     <name><![CDATA[@ruflin]]></name>
@@ -33,7 +33,6 @@
 <table>
 <thead>
 <tr>
-<th></th>
 <th> Project </th>
 <th> Version </th>
 <th> Required </th>
@@ -41,25 +40,21 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch/tree/v1.5.2">Elasticsearch</a></td>
 <td> 1.5.2 </td>
 <td> yes</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-mapper-attachments/tree/v2.5.0">Elasticsearch mapper attachments plugin</a></td>
 <td>2.5.0</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-transport-thrift/tree/v2.5.0">Elasticsearch thrift transport plugin</a></td>
 <td>2.5.0</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/zenobase/geocluster-facet/tree/0.0.12">Elasticsearch geocluster facet plugin</a></td>
 <td>0.0.12</td>
 <td>no</td>
@@ -127,7 +122,6 @@
 <table>
 <thead>
 <tr>
-<th></th>
 <th> Project </th>
 <th> Version </th>
 <th> Required </th>
@@ -135,25 +129,21 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch/tree/v1.4.3">Elasticsearch</a></td>
 <td> 1.4.3 </td>
 <td> yes</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-mapper-attachments/tree/v2.4.2">Elasticsearch mapper attachments plugin</a></td>
 <td>2.4.2</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-transport-thrift/tree/v2.4.1">Elasticsearch thrift transport plugin</a></td>
 <td>2.4.1</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/zenobase/geocluster-facet/tree/0.0.12">Elasticsearch geocluster facet plugin</a></td>
 <td>0.0.12</td>
 <td>no</td>
@@ -193,7 +183,6 @@
 <table>
 <thead>
 <tr>
-<th></th>
 <th> Project </th>
 <th> Version </th>
 <th> Required </th>
@@ -201,25 +190,21 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch/tree/v1.4.2">Elasticsearch</a></td>
 <td> 1.4.2 </td>
 <td> yes</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-mapper-attachments/tree/v2.4.1">Elasticsearch mapper attachments plugin</a></td>
 <td>2.4.1</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-transport-thrift/tree/v2.4.1">Elasticsearch thrift transport plugin</a></td>
 <td>2.4.1</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/zenobase/geocluster-facet/tree/0.0.12">Elasticsearch geocluster facet plugin</a></td>
 <td>0.0.12</td>
 <td>no</td>
@@ -282,7 +267,6 @@
 <table>
 <thead>
 <tr>
-<th></th>
 <th> Project </th>
 <th> Version </th>
 <th> Required </th>
@@ -290,25 +274,21 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch/tree/v1.3.4">Elasticsearch</a></td>
 <td> 1.3.4 </td>
 <td> yes</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-mapper-attachments/tree/v2.0.0.RC1">Elasticsearch mapper attachments plugin</a></td>
 <td>2.0.0.RC1</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-transport-thrift/tree/v2.0.0.RC2">Elasticsearch thrift transport plugin</a></td>
 <td>2.0.0.RC2</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/zenobase/geocluster-facet/tree/0.0.10">Elasticsearch geocluster facet plugin</a></td>
 <td>0.0.10</td>
 <td>no</td>
@@ -346,7 +326,6 @@
 <table>
 <thead>
 <tr>
-<th></th>
 <th> Project </th>
 <th> Version </th>
 <th> Required </th>
@@ -354,25 +333,21 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch/tree/v1.3.0">Elasticsearch</a></td>
 <td> 1.3.0 </td>
 <td> yes</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-mapper-attachments/tree/v2.0.0.RC1">Elasticsearch mapper attachments plugin</a></td>
 <td>2.0.0.RC1</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-transport-thrift/tree/v2.0.0.RC2">Elasticsearch thrift transport plugin</a></td>
 <td>2.0.0.RC2</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/zenobase/geocluster-facet/tree/0.0.10">Elasticsearch geocluster facet plugin</a></td>
 <td>0.0.10</td>
 <td>no</td>
@@ -407,7 +382,6 @@
 <table>
 <thead>
 <tr>
-<th></th>
 <th> Project </th>
 <th> Version </th>
 <th> Required </th>
@@ -415,25 +389,21 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch/tree/v1.2.1">Elasticsearch</a></td>
 <td> 1.2.1 </td>
 <td> yes</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-mapper-attachments/tree/v2.0.0.RC1">Elasticsearch mapper attachments plugin</a></td>
 <td>2.0.0.RC1</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-transport-thrift/tree/v2.0.0.RC2">Elasticsearch thrift transport plugin</a></td>
 <td>2.0.0.RC2</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/zenobase/geocluster-facet/tree/0.0.10">Elasticsearch geocluster facet plugin</a></td>
 <td>0.0.10</td>
 <td>no</td>
@@ -483,7 +453,6 @@
 <table>
 <thead>
 <tr>
-<th></th>
 <th> Project </th>
 <th> Version </th>
 <th> Required </th>
@@ -491,25 +460,21 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch/tree/v1.1.1">Elasticsearch</a></td>
 <td> 1.1.1 </td>
 <td> yes</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-mapper-attachments/tree/v2.0.0.RC1">Elasticsearch mapper attachments plugin</a></td>
 <td>2.0.0.RC1</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-transport-thrift/tree/v2.0.0.RC2">Elasticsearch thrift transport plugin</a></td>
 <td>2.0.0.RC2</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/zenobase/geocluster-facet/tree/0.0.10">Elasticsearch geocluster facet plugin</a></td>
 <td>0.0.10</td>
 <td>no</td>
@@ -546,7 +511,6 @@
 <table>
 <thead>
 <tr>
-<th></th>
 <th> Project </th>
 <th> Version </th>
 <th> Required </th>
@@ -554,25 +518,21 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch/tree/v1.1.1">Elasticsearch</a></td>
 <td> 1.1.1 </td>
 <td> yes</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-mapper-attachments/tree/v2.0.0.RC1">Elasticsearch mapper attachments plugin</a></td>
 <td>2.0.0.RC1</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-transport-thrift/tree/v2.0.0.RC2">Elasticsearch thrift transport plugin</a></td>
 <td>2.0.0.RC2</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/zenobase/geocluster-facet/tree/0.0.10">Elasticsearch geocluster facet plugin</a></td>
 <td>0.0.10</td>
 <td>no</td>
@@ -610,7 +570,6 @@
 <table>
 <thead>
 <tr>
-<th></th>
 <th> Project </th>
 <th> Version </th>
 <th> Required </th>
@@ -618,25 +577,21 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch/tree/v1.0.1">Elasticsearch</a></td>
 <td> 1.0.1 </td>
 <td> yes</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-mapper-attachments/tree/v2.0.0.RC1">Elasticsearch mapper attachments plugin</a></td>
 <td>2.0.0.RC1</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-transport-thrift/tree/v2.0.0.RC2">Elasticsearch thrift transport plugin</a></td>
 <td>2.0.0.RC2</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/zenobase/geocluster-facet/tree/0.0.10">Elasticsearch geocluster facet plugin</a></td>
 <td>0.0.10</td>
 <td>no</td>
@@ -674,7 +629,6 @@
 <table>
 <thead>
 <tr>
-<th></th>
 <th> Project </th>
 <th> Version </th>
 <th> Required </th>
@@ -682,25 +636,21 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch/tree/v1.0.1">Elasticsearch</a></td>
 <td> 1.0.1 </td>
 <td> yes</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-mapper-attachments/tree/v2.0.0.RC1">Elasticsearch mapper attachments plugin</a></td>
 <td>2.0.0.RC1</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-transport-thrift/tree/v2.0.0.RC2">Elasticsearch thrift transport plugin</a></td>
 <td>2.0.0.RC2</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/zenobase/geocluster-facet/tree/0.0.10">Elasticsearch geocluster facet plugin</a></td>
 <td>0.0.10</td>
 <td>no</td>
@@ -740,7 +690,6 @@
 <table>
 <thead>
 <tr>
-<th></th>
 <th> Project </th>
 <th> Version </th>
 <th> Required </th>
@@ -748,25 +697,21 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch/tree/v1.0.1">Elasticsearch</a></td>
 <td> 1.0.1 </td>
 <td> yes</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-mapper-attachments/tree/v2.0.0.RC1">Elasticsearch mapper attachments plugin</a></td>
 <td>2.0.0.RC1</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-transport-thrift/tree/v2.0.0.RC2">Elasticsearch thrift transport plugin</a></td>
 <td>2.0.0.RC2</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/zenobase/geocluster-facet/tree/0.0.10">Elasticsearch geocluster facet plugin</a></td>
 <td>0.0.10</td>
 <td>no</td>
@@ -805,7 +750,6 @@
 <table>
 <thead>
 <tr>
-<th></th>
 <th> Project </th>
 <th> Version </th>
 <th> Required </th>
@@ -813,28 +757,24 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch/tree/v1.0.0">Elasticsearch</a></td>
 <td>1.0.0</td>
-<td>yes|</td>
+<td>yes</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-mapper-attachments/tree/v2.0.0.RC1">Elasticsearch mapper attachments plugin</a></td>
 <td>2.0.0.RC1</td>
-<td>no|</td>
+<td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-transport-thrift/tree/v2.0.0.RC1">Elasticsearch thrift transport plugin</a></td>
 <td>2.0.0.RC1</td>
-<td>no|</td>
+<td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/zenobase/geocluster-facet/tree/0.0.9">Elasticsearch geocluster facet plugin</a></td>
 <td>0.0.9</td>
-<td>no|</td>
+<td>no</td>
 </tr>
 </tbody>
 </table>
@@ -869,7 +809,6 @@
 <table>
 <thead>
 <tr>
-<th></th>
 <th> Project </th>
 <th> Version </th>
 <th> Required </th>
@@ -877,28 +816,24 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch/tree/v0.90.10">Elasticsearch</a></td>
 <td>0.90.10</td>
-<td>yes|</td>
+<td>yes</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-mapper-attachments/tree/v1.9.0">Elasticsearch mapper attachments plugin</a></td>
 <td>1.9.0</td>
-<td>no|</td>
+<td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-transport-thrift/tree/v1.7.0">Elasticsearch thrift transport plugin</a></td>
 <td>1.7.0</td>
-<td>no|</td>
+<td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/zenobase/geocluster-facet/tree/0.0.9">Elasticsearch geocluster facet plugin</a></td>
 <td>0.0.9</td>
-<td>no|</td>
+<td>no</td>
 </tr>
 </tbody>
 </table>
@@ -963,7 +898,6 @@
 <table>
 <thead>
 <tr>
-<th></th>
 <th> Project </th>
 <th> Version </th>
 <th> Required </th>
@@ -971,25 +905,21 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch/tree/v0.90.7">Elasticsearch</a></td>
 <td>0.90.7</td>
 <td>yes</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-mapper-attachments/tree/v1.9.0">Elasticsearch mapper attachments plugin</a></td>
 <td>1.9.0</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/elasticsearch/elasticsearch-transport-thrift/tree/v1.4.0">Elasticsearch thrift transport plugin</a></td>
 <td>1.4.0</td>
 <td>no</td>
 </tr>
 <tr>
-<td></td>
 <td><a href="https://github.com/zenobase/geocluster-facet/tree/0.0.9">Elasticsearch geocluster facet plugin</a></td>
 <td>0.0.9</td>
 <td>no</td>
