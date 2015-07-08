@@ -4,7 +4,7 @@
   <title><![CDATA[Elastica]]></title>
   <link href="http://Elastica.io/atom.xml" rel="self"/>
   <link href="http://Elastica.io/"/>
-  <updated>2015-07-08T07:56:22+02:00</updated>
+  <updated>2015-07-08T07:59:18+02:00</updated>
   <id>http://Elastica.io/</id>
   <author>
     <name><![CDATA[@ruflin]]></name>
@@ -20,7 +20,7 @@
     <id>http://Elastica.io/2015/07/08/release-2-dot-2-0</id>
     <content type="html"><![CDATA[<p><a href="https://github.com/ruflin/Elastica/tree/2.2.0">Elastica 2.2.0</a> (<a href="https://github.com/ruflin/Elastica/releases/tag/2.2.0">download</a>). This release is compatible with elasticsearch 1.6.0.</p>
 
-<h3>Backward Compatibility Breaks</h3>
+<h2>Backward Compatibility Breaks</h2>
 
 <ul>
 <li>Usage of constant DEBUG and method Elastica\Util::debugEnabled is removed. <a href="https://github.com/ruflin/Elastica/pull/868">#868</a></li>
@@ -29,7 +29,7 @@
 </ul>
 
 
-<h3>Bugfixes</h3>
+<h2>Bugfixes</h2>
 
 <ul>
 <li>Fixed segmentation fault in PHP7 <a href="https://github.com/ruflin/Elastica/pull/868">#868</a></li>
@@ -37,7 +37,7 @@
 </ul>
 
 
-<h3>Improvements</h3>
+<h2>Improvements</h2>
 
 <ul>
 <li><code>CallbackStrategy</code> now will accept any <code>callable</code> as callback, not only instance of <code>Closure</code>. <a href="https://github.com/ruflin/Elastica/pull/871">#871</a></li>
