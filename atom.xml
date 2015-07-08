@@ -4,7 +4,7 @@
   <title><![CDATA[Elastica]]></title>
   <link href="http://Elastica.io/atom.xml" rel="self"/>
   <link href="http://Elastica.io/"/>
-  <updated>2015-06-02T09:15:14+02:00</updated>
+  <updated>2015-07-08T07:56:22+02:00</updated>
   <id>http://Elastica.io/</id>
   <author>
     <name><![CDATA[@ruflin]]></name>
@@ -12,6 +12,93 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Release 2.2.0]]></title>
+    <link href="http://Elastica.io/2015/07/08/release-2-dot-2-0/"/>
+    <updated>2015-07-08T07:28:30+02:00</updated>
+    <id>http://Elastica.io/2015/07/08/release-2-dot-2-0</id>
+    <content type="html"><![CDATA[<p><a href="https://github.com/ruflin/Elastica/tree/2.2.0">Elastica 2.2.0</a> (<a href="https://github.com/ruflin/Elastica/releases/tag/2.2.0">download</a>). This release is compatible with elasticsearch 1.6.0.</p>
+
+<h3>Backward Compatibility Breaks</h3>
+
+<ul>
+<li>Usage of constant DEBUG and method Elastica\Util::debugEnabled is removed. <a href="https://github.com/ruflin/Elastica/pull/868">#868</a></li>
+<li>Elastica\Response::getTransferInfo will not return &ldquo;request_header&rdquo; by default. <a href="https://github.com/ruflin/Elastica/pull/868">#868</a></li>
+<li>The Image Plugin is currently not compatible with Elasticearch 1.6.0</li>
+</ul>
+
+
+<h3>Bugfixes</h3>
+
+<ul>
+<li>Fixed segmentation fault in PHP7 <a href="https://github.com/ruflin/Elastica/pull/868">#868</a></li>
+<li>Removed deprecation for Elastica\Type::deleteByQuery <a href="https://github.com/ruflin/Elastica/pull/875">#875</a></li>
+</ul>
+
+
+<h3>Improvements</h3>
+
+<ul>
+<li><code>CallbackStrategy</code> now will accept any <code>callable</code> as callback, not only instance of <code>Closure</code>. <a href="https://github.com/ruflin/Elastica/pull/871">#871</a></li>
+<li><code>StrategyFactory</code> now will try to find predefined strategy before looking to global namespace. <a href="https://github.com/ruflin/Elastica/pull/877">#877</a></li>
+<li>Update elasticsearch dependency to elasticsearch 1.6.0 <a href="https://www.elastic.co/downloads/past-releases/elasticsearch-1-6-0">https://www.elastic.co/downloads/past-releases/elasticsearch-1-6-0</a></li>
+<li>All elasticsearch plugin dependencies were updated to the newest version.</li>
+<li>Methods of classes in <code>QueryBuilder\DSL</code> namespace now have exact same signatures as corresponding constructors. <a href="https://github.com/ruflin/Elastica/pull/878">#878</a></li>
+<li>Constructor of <code>Aggregation\Filter</code> now accepts filter as second parameter <a href="https://github.com/ruflin/Elastica/pull/878">#878</a></li>
+<li>Constructor of <code>Filter\AbstractMulti</code> (<code>BoolAnd</code>, <code>BooldOr</code>) now accepts array of filters as parameter <a href="https://github.com/ruflin/Elastica/pull/878">#878</a></li>
+<li>Constructor of <code>Query\Match</code> now accepts arguments <a href="https://github.com/ruflin/Elastica/pull/878">#878</a></li>
+<li>Coverage Reporting improved with Codecov <a href="https://github.com/ruflin/Elastica/pull/888">#888</a></li>
+<li>Added &lsquo;query_cache&rsquo; option for search <a href="https://github.com/ruflin/Elastica/pull/886">#886</a></li>
+</ul>
+
+
+<h2>Dependencies</h2>
+
+<table>
+<thead>
+<tr>
+<th> Project </th>
+<th> Version </th>
+<th> Required </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/elasticsearch/elasticsearch/tree/v1.6.0">Elasticsearch</a></td>
+<td>1.6.0</td>
+<td>yes</td>
+</tr>
+<tr>
+<td><a href="https://github.com/elasticsearch/elasticsearch-mapper-attachments/tree/v2.6.0">Elasticsearch mapper attachments plugin</a></td>
+<td>2.6.0</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="https://github.com/elasticsearch/elasticsearch-transport-thrift/tree/v2.6.0">Elasticsearch thrift transport plugin</a></td>
+<td>2.6.0</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="https://github.com/elastic/elasticsearch-transport-memcached/tree/v2.6.0">Elasticsearch memcached transport plugin</a></td>
+<td>2.6.0</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="https://github.com/zenobase/geocluster-facet/tree/0.0.12">Elasticsearch geocluster facet plugin</a></td>
+<td>0.0.12</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="https://github.com/SibaTokyo/elasticsearch-image/tree/1.4.0">Elasticsearch image plugin</a></td>
+<td>1.4.0</td>
+<td>no</td>
+</tr>
+</tbody>
+</table>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Release 2.1.0]]></title>
@@ -1294,50 +1381,6 @@ if use Elastica\Log outside we need use as(<a href="https://github.com/php-fig/l
 <ul>
 <li>\Elastica\Facet\Terms::setScript()</li>
 <li>\Elastica\Document::set() &amp;&amp; get() &amp;&amp; has() &amp;&amp; remove()</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Release v0.19.8.0]]></title>
-    <link href="http://Elastica.io/2012/08/12/release-v0-dot-19-dot-8-0/"/>
-    <updated>2012-08-12T21:15:00+02:00</updated>
-    <id>http://Elastica.io/2012/08/12/release-v0-dot-19-dot-8-0</id>
-    <content type="html"><![CDATA[<h1>Release <a href="https://github.com/ruflin/Elastica/tree/v0.19.8.0">v0.19.8.0</a></h1>
-
-<p>This release breaks backward compatibility!</p>
-
-<p>Date: 2012-08-12</p>
-
-<h2>Release Notes</h2>
-
-<p>All changes can be found in the <a href="https://github.com/ruflin/Elastica/blob/v0.19.8.0/changes.txt">changes.txt</a></p>
-
-<h3>BC Breaks</h3>
-
-<ul>
-<li>Change Elastica_Filter_GeoDistance::__construct(), accepts geohash parameter (BC break, before: ($key, $latitude, $longitude, $distance), after: ($key, $location, $distance) where $location is array(&lsquo;lat&rsquo; => $latitude, &lsquo;lon&rsquo; => $longitude) or a geohash)</li>
-</ul>
-
-
-<h3>Changes</h3>
-
-<ul>
-<li>Remove old style path creation through params in Elastica_Index::create and Elastica_Search::search</li>
-<li>PSR1/PSR2 Style enforced&lt;</li>
-</ul>
-
-
-<h3>Additions</h3>
-
-<ul>
-<li>Elastica_Query_Prefix added</li>
-<li>Added Elastica_ScriptFields</li>
-<li>Added Elastica_Filter_Limit</li>
-<li>Facet scope added</li>
-<li>Added Elastica_Filter_MatchAll</li>
-<li>Added Elastica_Filter_Limit</li>
 </ul>
 
 ]]></content>
