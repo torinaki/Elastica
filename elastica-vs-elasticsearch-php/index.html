@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Elastica - Elastica</title>
+  <title>Elastica vs elasticsearch-php - Elastica</title>
   <meta name="author" content="@ruflin">
 
   
-  <meta name="description" content="Elastica - PHP client for elasticsearch">
+  <meta name="description" content="Elastica vs Elasticsearch-php One of the more frequent question is how do Elastica and the official elasticsearch-php client compare. This page is &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://Elastica.io">
+  <link rel="canonical" href="http://Elastica.io/elastica-vs-elasticsearch-php">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Elastica" type="application/atom+xml">
@@ -83,46 +83,94 @@
 <article role="article">
   
   <header>
-    <h1 class="entry-title">Elastica</h1>
+    <h1 class="entry-title">Elastica vs Elasticsearch-php</h1>
     
   </header>
   
-  <p><a href="https://packagist.org/packages/ruflin/elastica"><img src="https://poser.pugx.org/ruflin/Elastica/v/stable.png" alt="Latest Stable Version" /></a>
-<a href="http://codecov.io/github/ruflin/Elastica?branch=master"><img src="http://codecov.io/github/ruflin/Elastica/coverage.svg?branch=master" alt="codecov.io" /></a>
-<a href="https://packagist.org/packages/ruflin/elastica"><img src="https://poser.pugx.org/ruflin/Elastica/downloads.png" alt="Total Downloads" /></a>
-<a href="https://flattr.com/submit/auto?user_id=ruflin&amp;url=https://github.com/ruflin/Elastica&amp;title=Elastica&amp;language=PHP&amp;tags=github&amp;category=software"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this git repo" /></a>
-<a href="https://gitter.im/ruflin/Elastica?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="Join the chat at https://gitter.im/ruflin/Elastica" /></a></p>
+  <p>One of the more frequent question is how do <a href="https://github.com/ruflin/Elastica">Elastica</a> and the official <a href="https://github.com/elastic/elasticsearch-php">elasticsearch-php</a> client compare. This page is here to give some insights about the differences of the two clients and should support you in which one to pick.</p>
 
-<p>Elastica.io is the documentation for <a href="http://github.com/ruflin/Elastica">Elastica</a>, a PHP client for <a href="http://elasticsearch.org">elasticsearch</a>. Elastica is open source and you can download or clone the source code on Github from <a href="http://github.com/ruflin/Elastica">ruflin/Elastica</a>.</p>
+<p>For more details also have a look at the linked blog posts and discussions below.</p>
 
-<p>These pages gives an overview of how to use Elastica. You can find the complete <a href="/api/index.html">API here</a>. Any contributions to the documentations are highly welcome. Elastica.io is based on <a href="http://octopress.org/">Octopress</a> and is hosted on Github. Fork your copy from <a href="https://github.com/ruflin/Elastica.io">ruflin/Elastica.io</a> and open a pull request.</p>
+<h1>Comparison Table</h1>
+
+<p>The following table should give a brief overview how Elastica and elasticsearch-php compare.</p>
+
+<table>
+<thead>
+<tr>
+<th>                           </th>
+<th> <strong>Elastica</strong>      </th>
+<th> <strong>elasticsearch-php</strong> </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> <strong>Active Development</strong>    </td>
+<td> yes               </td>
+<td> yes                   </td>
+</tr>
+<tr>
+<td> <strong>Documentation</strong>         </td>
+<td> low               </td>
+<td> good                  </td>
+</tr>
+<tr>
+<td> <strong>IDE Autocomplete</strong>      </td>
+<td> yes               </td>
+<td> no                    </td>
+</tr>
+<tr>
+<td> <strong>Performance</strong>           </td>
+<td> good              </td>
+<td> good                  </td>
+</tr>
+<tr>
+<td> <strong>Code size</strong>             </td>
+<td> medium            </td>
+<td> low                   </td>
+</tr>
+<tr>
+<td> <strong>Paid Developers</strong>       </td>
+<td> no                </td>
+<td> yes                   </td>
+</tr>
+<tr>
+<td> <strong>Http Client</strong>           </td>
+<td> Selectable        </td>
+<td> guzzle3               </td>
+</tr>
+</tbody>
+</table>
+
+
+<h1>History</h1>
+
+<p>Elastica was in 2010 one of the first PHP clients for elasticsearch and was initially built for elasticsearch v0.16.0 and before. Since then a lot of things have changed in the elasticsearch API. Filter, facets, aggregations and more were added which also added complexity on the client side.</p>
+
+<p>In 2013 elasticsearch decided to unify all its elasticsearch client to have a common base and started to build elasticsearch-php. Since then, both clients are developen in parallel.</p>
+
+<h1>Elastica</h1>
+
+<p>As this is the Elastica page, here also some points that are specific to Elastica.</p>
+
+<h2>DSL Mapping</h2>
+
+<p>Elastica maps the Elasticsearch DSL to objects. The advantage of this is that in an IDE autocomplete can be used to write the queries. This makes it possible that the engineers has to less think about how many open arrays and what the exact syntax of elasticsearch is. In addition, it makes it possible the Elastica can notify engineers by marking specific functions deprecated, that these functions will disappear with a future elasticsearch release or even map the changes, so the code stays the same. But this also adds complexity to the code of Elastica and means the code has to changed and adapted with every release of elasticsearch.</p>
+
+<h2>Raw Queries</h2>
+
+<p>Is Elastica used with raw queries, then the usage is very similar to the elasticsearch-php client and allows all flexibility. More details can be found here: <a href="http://elastica.io/example/raw-array-query.html">http://elastica.io/example/raw-array-query.html</a></p>
+
+<h1>Links</h1>
 
 <ul>
-<li><a href="/getting-started/">Getting Started</a></li>
-<li><a href="/examples/">Examples</a></li>
-<li><a href="/contribute/">How to Contribute</a></li>
-<li><a href="/releases/">Releases</a></li>
-<li><a href="/migrations/">Migrations</a></li>
-<li><a href="/references/">References</a></li>
-<li><a href="/elastica-vs-elasticsearch-php">Elastica vs elasticsearch-php</a></li>
+<li><a href="https://groups.google.com/forum/#!searchin/elasticsearch/ruflin/elasticsearch/kDWc8lOHV7s/NgmrtChmkrMJ">Zachary Tong explaining the difference</a></li>
 </ul>
 
 
-<h2>Compatibility</h2>
+<h1>Thoughts</h1>
 
-<p>Elastica is tested with PHP 5.4 and later. Most functionality still works with PHP 5.3 but future support is not guaranteed. It Versions prior and equal to v0.19.8.0 are compatible with PHP 5.2</p>
-
-<h2>File indexing</h2>
-
-<p>File upload is supported but the mapper attachement plugin has to be installed</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>./bin/plugin -install elasticsearch/elasticsearch-mapper-attachments/1.9.0</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>Credits</h2>
-
-<p>Credits go to <a href="https://github.com/ruflin/Elastica/network/members">all users that gave feedback and committed code</a>.</p>
+<p>Potentially Elastica could be a layer on top of the elasticsearch-php client to offer the extensive API. Like this Elastica would profit from the development of the elasticsearch-php client and the speed improvements, but could offer the layer on top.</p>
 
   
     <footer>
@@ -130,7 +178,7 @@
       
         <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://Elastica.io/index.html" data-via="" data-counturl="http://Elastica.io/index.html" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://Elastica.io/elastica-vs-elasticsearch-php/index.html" data-via="" data-counturl="http://Elastica.io/elastica-vs-elasticsearch-php/index.html" >Tweet</a>
   
   
   

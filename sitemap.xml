@@ -106,19 +106,10 @@
     <loc>http://Elastica.io/blog/</loc>
   </url>
   <url>
-    <loc>http://Elastica.io/references/</loc>
+    <loc>http://Elastica.io/getting-started/</loc>
   </url>
   <url>
     <loc>http://Elastica.io/faq/</loc>
-  </url>
-  <url>
-    <loc>http://Elastica.io/examples/</loc>
-  </url>
-  <url>
-    <loc>http://Elastica.io/contribute/</loc>
-  </url>
-  <url>
-    <loc>http://Elastica.io/getting-started/</loc>
   </url>
   <url>
     <loc>http://Elastica.io/projects/</loc>
@@ -130,7 +121,19 @@
     <loc>http://Elastica.io/migrations/</loc>
   </url>
   <url>
+    <loc>http://Elastica.io/examples/</loc>
+  </url>
+  <url>
+    <loc>http://Elastica.io/contribute/</loc>
+  </url>
+  <url>
+    <loc>http://Elastica.io/references/</loc>
+  </url>
+  <url>
     <loc>http://Elastica.io/releases/</loc>
+  </url>
+  <url>
+    <loc>http://Elastica.io/elastica-vs-elasticsearch-php/</loc>
   </url>
   <url>
     <loc>http://Elastica.io/getting-started/installation.html</loc>
