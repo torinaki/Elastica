@@ -143,6 +143,46 @@
 </table>
 
 
+<h1>Code Snippets</h1>
+
+<p>List of code snippets that compare the two clients:</p>
+
+<h2>Add Document</h2>
+
+<p>Elastica:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="nv">$client</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">\Elastica\Client</span><span class="p">();</span>
+</span><span class='line'><span class="nv">$index</span> <span class="o">=</span> <span class="nv">$client</span><span class="o">-&gt;</span><span class="na">getIndex</span><span class="p">(</span><span class="s1">&#39;indexName&#39;</span><span class="p">);</span>
+</span><span class='line'><span class="nv">$type</span> <span class="o">=</span> <span class="nv">$index</span><span class="o">-&gt;</span><span class="na">getType</span><span class="p">(</span><span class="s1">&#39;typeName&#39;</span><span class="p">);</span>
+</span><span class='line'><span class="nv">$doc</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">\Elastica\Document</span><span class="p">(</span><span class="s1">&#39;myId&#39;</span><span class="p">,</span> <span class="k">array</span><span class="p">(</span><span class="s1">&#39;name&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;ruflin&#39;</span><span class="p">));</span>
+</span><span class='line'><span class="nv">$respone</span> <span class="o">=</span> <span class="nv">$type</span><span class="o">-&gt;</span><span class="na">addDocument</span><span class="p">(</span><span class="nv">$doc</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>elasticsearch-php:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="nv">$client</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Elasticsearch\Client</span><span class="p">();</span>
+</span><span class='line'><span class="nv">$params</span> <span class="o">=</span> <span class="k">array</span><span class="p">();</span>
+</span><span class='line'><span class="nv">$params</span><span class="p">[</span><span class="s1">&#39;body&#39;</span><span class="p">]</span>  <span class="o">=</span> <span class="k">array</span><span class="p">(</span><span class="s1">&#39;name&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;ruflin&#39;</span><span class="p">);</span>
+</span><span class='line'><span class="nv">$params</span><span class="p">[</span><span class="s1">&#39;index&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;indexName&#39;</span><span class="p">;</span>
+</span><span class='line'><span class="nv">$params</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span>  <span class="o">=</span> <span class="s1">&#39;typeName&#39;</span><span class="p">;</span>
+</span><span class='line'><span class="nv">$params</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">]</span>    <span class="o">=</span> <span class="s1">&#39;myId&#39;</span><span class="p">;</span>
+</span><span class='line'><span class="nv">$respone</span> <span class="o">=</span> <span class="nv">$client</span><span class="o">-&gt;</span><span class="na">index</span><span class="p">(</span><span class="nv">$params</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
 <h1>History</h1>
 
 <p>Elastica was in 2010 one of the first PHP clients for elasticsearch and was initially built for elasticsearch v0.16.0 and before. Since then a lot of things have changed in the elasticsearch API. Filter, facets, aggregations and more were added which also added complexity on the client side.</p>
