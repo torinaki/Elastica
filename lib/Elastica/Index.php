@@ -44,8 +44,8 @@ class Index implements SearchableInterface
     {
         $this->_client = $client;
 
-        if (!is_scalar($name)) {
-            throw new InvalidException('Index name should be a scalar type');
+        if (!is_scalar($name) || !$name) {
+            throw new InvalidException('Index name should be a scalar type and not empty');
         }
         $this->_name = (string) $name;
     }

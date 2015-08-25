@@ -40,6 +40,16 @@ class IndexTemplateTest extends BaseTest
     }
 
     /**
+     * @expectedException \Elastica\Exception\InvalidException
+     * @group unit
+     */
+    public function testNameShouldNotBeEmpty()
+    {
+        $client = $this->_getClient();
+        new IndexTemplate($client, '');
+    }
+
+    /**
      * @group unit
      */
     public function testDelete()
@@ -54,6 +64,23 @@ class IndexTemplateTest extends BaseTest
             ->willReturn($response);
         $indexTemplate = new IndexTemplate($clientMock, $name);
         $this->assertSame($response, $indexTemplate->delete());
+    }
+
+    /**
+     * @group unit
+     */
+    public function testDeleteIndexes()
+    {
+        $name = 'index_template*';
+        $response = new Response('');
+        /** @var \PHPUnit_Framework_MockObject_MockObject|Client $clientMock */
+        $clientMock = $this->getMock('\Elastica\Client', array('request'));
+        $clientMock->expects($this->once())
+            ->method('request')
+            ->with($name . '/', Request::DELETE, array(), array())
+            ->willReturn($response);
+        $indexTemplate = new IndexTemplate($clientMock, $name);
+        $this->assertSame($response, $indexTemplate->deleteIndexes());
     }
 
     /**

@@ -36,8 +36,8 @@ class IndexTemplate
     {
         $this->client = $client;
 
-        if (!is_scalar($name)) {
-            throw new InvalidException('Index template should be a scalar type');
+        if (!is_scalar($name) || !$name) {
+            throw new InvalidException('Index template should be a scalar type and not empty');
         }
         $this->name = (string) $name;
     }
@@ -52,6 +52,17 @@ class IndexTemplate
         $response = $this->request(Request::DELETE);
 
         return $response;
+    }
+
+    /**
+     * Deletes all indexes that matches template pattern
+     *
+     * @return Response
+     */
+    public function deleteIndexes()
+    {
+        $index = new Index($this->getClient(), $this->getName());
+        return $index->delete();
     }
 
     /**
@@ -78,7 +89,7 @@ class IndexTemplate
         $response = $this->request(Request::HEAD);
         $info = $response->getTransferInfo();
 
-        return (bool) ($info['http_code'] == 200);
+        return $info['http_code'] == 200;
     }
 
     /**

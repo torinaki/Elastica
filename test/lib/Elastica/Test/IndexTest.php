@@ -15,6 +15,17 @@ use Elastica\Type\Mapping;
 
 class IndexTest extends BaseTest
 {
+
+    /**
+     * @expectedException \Elastica\Exception\InvalidException
+     * @group unit
+     */
+    public function testNameShouldNotBeEmpty()
+    {
+        $client = $this->_getClient();
+        new Index($client, '');
+    }
+
     /**
      * @group functional
      */
